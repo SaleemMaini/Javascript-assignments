@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn JavaScript</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo&family=Open+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <select id="fontSelect" onchange=update()>
+      <option value="'Open Sans', sans-serif">Open</option>
+      <option value="'Roboto', sans-serif" selected>Roboto</option>
+      <option value="'Cairo', sans-serif" >Cairo</option>
+    </select>
+    <select id="colorSelect" onchange=update()>
+      <option value="#FF0022" >Red</option>
+      <option value="#53CF00" selected>Green</option>
+      <option value="#EFC809">Yellow</option>
+      <option value="#000000">Black</option>
+      <option value="#1645D9">Blue</option>
+      <option value="#FF7959">Pink</option>
+    </select>
+    <select id="fontSizeSelect" onchange=update()>
+      <option value="16px">16</option>
+      <option value="17px">17</option>
+      <option value="18px" selected>18</option>
+      <option value="19px" >19</option>
+      <option value="20px">20</option>
+      <option value="21px">21</option>
+      <option value="22px">22</option>
+      <option value="23px">23</option>
+      <option value="24px">24</option>
+      <option value="25px">25</option>
+      <option value="26px">26</option>
+      <option value="27px">27</option>
+      <option value="28px">28</option>
+      <option value="29px" >29</option>
+      <option value="30px">30</option>
+    </select>
+    <hr>
+    Hello World!
+    <script src="main.js"></script>
+  </body>
+</html>

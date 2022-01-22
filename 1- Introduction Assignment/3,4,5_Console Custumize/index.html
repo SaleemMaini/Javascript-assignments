@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("%cElzero %cWeb %cSchool", "color:red; font-size:40px;", "color:green; font-size:40px;font-weight:bold;", "color:blue; font-size:40px;");
+        // Start Console Group
+        console.group("Group 1");
+            // Start Group 1
+            console.log("Message one");
+            console.log("Message Two");
+            // Start Child Group
+            console.group("Child Group");
+            console.log("Message one");
+            console.log("Message Two");
+            // Start Grand Child Group
+            console.group("Grand Child Group");
+            console.log("Message one");
+            console.log("Message Two");
+            // End Grand Child Group
+            console.groupEnd();
+            // End Child Group
+            console.groupEnd();
+            // End Group 1
+            console.groupEnd();
+            // Start Group 2
+            console.group("Group 2");
+            console.log("Message one");
+            console.log("Message Two");
+            // End Group 2
+            console.groupEnd();
+        // End Console Group
+        // Start Console Table
+        console.table(["kkkk","ijiujij","kijoijnoin"]);
+
+    </script>
+</body>
+</html>
